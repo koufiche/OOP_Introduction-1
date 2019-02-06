@@ -12,7 +12,7 @@ namespace OOP_Introduction
         firstName = "John",
         lastName = "Doe"
       };
-
+            
       // after fixing access permissions
       //Debug.WriteLine(Student.getName());
 
@@ -36,6 +36,7 @@ namespace OOP_Introduction
       // interfaces
       GraduateStudent Grad = new GraduateStudent();
       Debug.WriteLine(Grad.Study());
+            
     }
 
     static int ModifyPrimitiveArgument(int x)
